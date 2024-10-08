@@ -22,9 +22,6 @@ You will likely to install the various Python dependencies needed by the project
 4. Run `pip install -r requirements.txt` to install all dependecies
 5. If you make any changes to the requirements, run `pip freeze > requirements.txt` to save then
 
-#### Linux or Mac
-
-TBD
 
 ### Begin a local instance of the server
 
@@ -34,10 +31,4 @@ TBD
 4. Then, to actually create the tables needed, run `db.create_all()`
 5. If you have an old version of the database, just delete the file, or write `db.drop_all()`
 
-## Use cases
 
-This tool is being developed for [Artesian Software](https://artesiansoft.com/), a Industrial IoT solution provider based in Alberta. The tool will allow farmers to upload their sensor data to Artensian's servers with an easy to use interface.
-
-## Contributing
-
-TBD
